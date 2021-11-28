@@ -1,7 +1,24 @@
-.toudou:hover {
+/* .toudou:hover {
 	padding: 10px;
-	font-size: 50px;
-}
+	transform: scale(1.5);
+	transform-origin: center;
+} */
 .toudou {
-	padding: 10px;
+	font-size: 22px;
+	color: white;
+	align-items: center;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.toudou-logo {
+	font-size: 32px;
+}
+.containerqq {
+	padding: 5px;
+	gap: 50px;
+	align-items: center;
+	flex-direction: row;
+	background-color: rgba(0, 0, 0, 0.95);
+	justify-content: left;
+	display: flex;
+	padding-left: 10%;
 }

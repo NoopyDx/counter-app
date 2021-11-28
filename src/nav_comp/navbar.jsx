@@ -4,15 +4,13 @@ import "./navbar.css";
 class NavbarC extends React.Component {
 	render() {
 		return (
-			<div>
-				<nav class="navbar">
-					<span class="navbar-brand mb-0 h1 toudou" style={{ color: "purple" }}>
-						Navbar
-					</span>
-					<span class="toudou" style={{ color: "green", textAlign: "center" }}>
-						2
-					</span>
-				</nav>
+			<div class="containerqq">
+				<div class="toudou toudou-logo">
+					{/* <i class="bi bi-currency-bitcoin" style={{ color: "white" }}></i> */}
+					NFT MORURA
+				</div>
+				<div class="toudou">HOME</div>
+				<div class="toudou">PILOTE</div>
 			</div>
 		);
 	}

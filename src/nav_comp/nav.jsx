@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./nav.css";
-import Background from "../assets/bg.jpg";
+import Background from "../assets/964x.jpg";
 import NavbarC from "./navbar";
+import CardForm from "../cardForm";
 
 class Nav extends React.Component {
 	render() {
@@ -9,13 +10,14 @@ class Nav extends React.Component {
 			<div
 				className="fullbg"
 				style={{
-					backgroundImage: `url(${Background})`,
-					backgroundColor: "blue",
-					backgroundPosition: "center",
+					// backgroundColor: "blue",
+					backgroundPosition: "top",
 					backgroundSize: "cover",
 					backgroundRepeat: "no-repeat",
-				}}>
-				<NavbarC />
+				}}
+			>
+				{/* <NavbarC /> */}
+				<CardForm />
 			</div>
 		);
 	}

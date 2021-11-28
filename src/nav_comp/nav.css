@@ -1,3 +1,12 @@
-.fullbg {
-	min-height: 100vh;
+@media (min-width: 320px) {
+	.fullbg {
+		min-height: 100vh;
+		background-image: url("../assets/mouratoglou.png");
+	}
+}
+@media (min-width: 801px) {
+	.fullbg {
+		min-height: 100vh;
+		background-image: url("../assets/964x.jpg");
+	}
 }

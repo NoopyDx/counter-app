@@ -4,12 +4,19 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-icons/font/bootstrap-icons.css";
 import Nav from "./nav_comp/nav";
+import { Routes, Route, Link, Router, BrowserRouter } from "react-router-dom";
 
 ReactDOM.render(
-	<div>
-		<Nav />
-	</div>,
+	<BrowserRouter>
+		<div>
+			<Routes>
+				<Route path="/" element={<App />} />
+				<Route path="about" element={<Nav />} />
+			</Routes>
+		</div>
+	</BrowserRouter>,
 	document.getElementById("root")
 );
 

@@ -13,8 +13,12 @@ function App() {
 				backgroundPosition: "center",
 				backgroundSize: "cover",
 				backgroundRepeat: "no-repeat",
-			}}>
+			}}
+		>
 			<header className="App-header"></header>
+			<button>
+				<a href="/about">GO TO ABOUT PAGE</a>
+			</button>
 		</div>
 	);
 }

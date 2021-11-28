@@ -1,0 +1,100 @@
+.containerq {
+	padding: 10%;
+	gap: 10px;
+	align-items: center;
+	/* flex-direction: column; */
+	display: flex;
+	/* padding-left: 10%; */
+	/* background-color: lawngreen; */
+	justify-content: left;
+	/* width: 50%; */
+}
+.sdcont {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+::placeholder {
+	color: white;
+}
+input {
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: 6px;
+	border: solid 1px white;
+	color: white;
+	height: 40px;
+}
+.horns {
+	height: 25px;
+}
+.optin {
+	display: flex;
+}
+button {
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 50px;
+	background-color: #f46e54;
+	border: 0px;
+	box-shadow: -10px 10px 20px 1px rgb(34, 34, 34);
+	color: white;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+@media (min-width: 319px) {
+	/* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+	.fils {
+		color: white;
+		padding: 5%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		/* background-color: rgb(145, 145, 145);
+		border: solid 3px blanchedalmond;
+		border-radius: 5%; */
+	}
+	.containerq {
+		padding: 10%;
+		gap: 10px;
+		align-items: center;
+		/* flex-direction: column; */
+		display: flex;
+		/* padding-left: 10%; */
+		/* background-color: lawngreen; */
+		justify-content: center;
+		/* width: 50%; */
+	}
+}
+@media (min-width: 801px) {
+	.containerq {
+		padding: 10%;
+		gap: 10px;
+		align-items: center;
+		/* flex-direction: column; */
+		display: flex;
+		/* padding-left: 10%; */
+		/* background-color: lawngreen; */
+		justify-content: left;
+		/* width: 50%; */
+	}
+	/* tablet, landscape iPad, lo-res laptops ands desktops */
+	.fils {
+		max-width: 480px;
+		margin-left: min(200px, calc((100vw-480) / 2));
+		/* min(200px, calc((100vw-480)2) */
+		color: white;
+		padding: 1%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 10px;
+		/* background-color: rgb(145, 145, 145);
+		border: solid 3px blanchedalmond;
+		border-radius: 5%; */
+	}
+}
